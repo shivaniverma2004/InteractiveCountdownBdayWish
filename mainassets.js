@@ -53,7 +53,7 @@ function updateCountdown() {
         hours.innerHTML = hour < 10 ? '0' + hour : hour;
         minutes.innerHTML = minute < 10 ? '0' + minute : minute;
         seconds.innerHTML = second < 10 ? '0' + second : second;
-        yearold.innerText = `${nextAge}st Birthday!`;
+        yearold.innerText = `${nextAge}rd Birthday!`;
     }
 }
 
